@@ -1,0 +1,19 @@
+h1,a{
+  color: hsl(230, 29%, 20%);
+  font-family: 'Barlow', sans-serif;
+}
+p, span{
+  color: hsl(231, 7%, 65%);
+  font-family: 'Barlow Condensed', sans-serif;
+}
+.App::after{
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50%;
+  height: 50%;
+  background-color: hsl(207, 33%, 95%);
+  border-radius: 0 0 0 60px;
+  z-index: -1;
+}
